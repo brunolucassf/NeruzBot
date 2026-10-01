@@ -1,0 +1,17 @@
+# Dependências e build
+node_modules/
+dist/
+coverage/
+
+# Segredos
+.env
+.env.*
+!.env.example
+cookies.txt
+*.cookies.txt
+
+# Logs e sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
